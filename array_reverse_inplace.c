@@ -1,3 +1,14 @@
+// Problem Name: Reverse an Array
+// Problem Source: Basic Array Problem / Common Interview Question
+// Approach / Strategy:
+// Use two-pointer technique.
+// One pointer starts from the beginning (i),
+// another starts from the end (j).
+// Swap both elements and move pointers inward
+// until they meet.
+//
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 #include <stdio.h>
 
 int main() {
