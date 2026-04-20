@@ -1,3 +1,16 @@
+// Problem Name: Check Palindrome String
+// Problem Source: Basic String Problem / Common Interview Question
+// Approach / Strategy:
+// Use two-pointer technique.
+// One pointer starts from the beginning (i)
+// and another from the end (j).
+// Compare characters at both positions:
+//   - If any pair is different, string is not palindrome.
+//   - Otherwise move inward.
+// If all pairs match, string is palindrome.
+//
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 #include <stdio.h>
 #include<string.h>
 int main() {
