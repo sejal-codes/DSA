@@ -1,7 +1,7 @@
 #include <stdio.h>
 int findsum(int n){
     if(n==1){
-        return 2;
+        return 1;
     }
     else
     return (2*n-1)+findsum(n-1);
