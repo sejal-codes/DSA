@@ -1,3 +1,14 @@
+// Problem Name: Linear Search in an Array
+// Problem Source: Basic Searching Problem / Common Interview Question
+// Approach / Strategy:
+// Traverse the array from index 0 to size - 1.
+// Compare each element with the target value.
+// If a match is found, print the index and stop.
+// If no match is found after traversal,
+// print "element not found".
+//
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 #include <stdio.h>
 int main()
 {
