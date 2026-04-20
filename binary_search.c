@@ -1,3 +1,16 @@
+// Problem Name: Binary Search in an Array
+// Problem Source: Basic Searching Problem / Common Interview Question
+// Approach / Strategy:
+// Use Binary Search on a sorted array.
+// Initialize low = 0 and high = size - 1.
+// Find mid element:
+//   - If arr[mid] == search, element found.
+//   - If arr[mid] < search, search in right half.
+//   - If arr[mid] > search, search in left half.
+// Repeat until low > high.
+//
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
 #include <stdio.h>
 int main()
 {
