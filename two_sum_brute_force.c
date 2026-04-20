@@ -1,3 +1,15 @@
+// Problem Name: Find Pair from Two Arrays with Given Target Sum
+// Problem Source: Basic Array Problem / Common Interview Question
+// Approach / Strategy:
+// Traverse every element of first array.
+// For each element, check every element of second array.
+// If sum of a[i] + b[j] equals target,
+// print the pair indices and stop.
+// If no pair is found after all checks,
+// print "Pair not found".
+//
+// Time Complexity: O(n²)
+// Space Complexity: O(1)
 #include <stdio.h>
 
 int main() {
